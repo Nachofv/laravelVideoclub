@@ -27,8 +27,8 @@
                        echo '<button type="button" class="btn btn-danger">Devolver Película</button>';
                    }
                  ?>
-                <a type="button" class="btn btn-warning"><i class="fa fa-pencil fa-2x" aria-hidden="true"></i>Editar película</a>
-                <button type="button" class="btn btn-default">Volver al listado</button> 
+                <a href="{{url('catalog/edit')}}/{{$id}}" type="button" class="btn btn-warning"><i class="fa fa-pencil fa-2x" aria-hidden="true"></i>Editar película</a>
+                <a  href="{{url('/catalog')}}"><button type="button" class="btn btn-default">Volver al listado</button></a>
             </p>
 
         </div>
